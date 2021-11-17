@@ -1,0 +1,279 @@
+*,
+*::after,
+::before{
+    box-sizing: border-box;
+}
+
+body{
+    width: 1440px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    color: #222;
+    font-family: Open Sans;
+}
+
+
+.logo-logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-icon{  
+    width: 50px;
+    height: 50px;
+    margin: 5px  16px 0 170px;
+}
+
+.logo-text{
+    cursor: pointer;
+    color: #222222;
+    left: 66px;
+    top: 8px;    
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    display: inline-block;
+}
+
+.logo-text:hover{
+    color: #DE2E54;
+    opacity: 0.8;
+}
+
+.logo-text:active{
+    color: #DE2E54;
+    opacity: 0.6;
+}
+.sitenav{
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.sitenav-items{
+    list-style: none;
+    display: flex;    
+    color: #222;
+}
+
+.sitenav-item{
+    margin-top: 20px;
+}
+
+.sitenav-item a{
+    color: #222;
+    text-decoration: none;
+    margin-left: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 14px;
+    line-height: 150%;
+    text-transform: uppercase;
+    height: 21px;
+}
+
+.sitenav-item a:hover{
+    color: #DE2E54;
+    text-decoration: none;
+    margin-left: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 14px;
+    line-height: 150%;
+    text-transform: uppercase;
+    height: 21px;
+}
+
+.sitenav-item a:active{
+    opacity: 0.8;
+}
+
+.Btn{
+    margin: 25px 0;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #DE2E54;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 100px;
+    border: 3px solid #DE2E54;
+}
+
+.Btn:hover{
+    color: #DE2E54;
+    background-color: #fff;
+}
+
+.Btn:active{
+    background-color: #DE2E54;
+    opacity: 0.6;
+    color: #fff;
+}
+
+.basic-hero{
+    display: flex;}
+ 
+
+.hero{   
+    background: #0EB4C1;
+    color: #fff;
+}
+
+.main-hero{
+    height: 86px;
+   
+   left: 170px;
+   padding-top: 120px;
+   padding-left: 170px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+}
+
+.main-hero_text{
+    margin-top: 100px;
+    padding-left: 170px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;    
+}
+
+.hero-div{
+    display: inline-block;    
+}
+
+.hero-img{
+    margin-left: 177px;
+    display: block;
+}
+
+.hero-btn{
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 170px;
+}
+
+.hero-btn:hover{
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 170px;
+}
+
+section{
+    display: flex;
+}
+
+.servise-heading{
+    text-align: center;
+}
+
+.section-img{
+    margin-left: 288px;
+}
+
+.main-section-texts {
+    margin-left: 64px;
+    width: 600px;
+
+}
+
+h3{
+    display: inline-block;
+}
+
+.section-overview{
+    width: 100%;
+}
+
+.mainBtn{
+    text-align: center;
+    margin-left: 540px;
+    padding: 12px 24px;   
+    margin-bottom: 0; 
+}
+
+.mainBtn:hover{
+    text-align: center;
+    margin-left: 540px;
+    margin-bottom: 0;
+}
+
+.footer{
+    background-color: #222;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.footer-text{
+    margin: auto;
+    text-align: center;
+    background-color: #0EB4C1;
+    height: 253px;
+}
+
+.footer-text_btn{
+    padding-top: 64px;    
+    color: #fff;
+    padding-bottom: 30px; 
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+}
+
+.footer-btn{
+    margin-left: 25px;
+    background-color: #0EB4C1;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.footer-btn:hover{
+    margin-left: 25px;
+    color: #fff;
+    background-color: #DE2E54;
+}
+
+.footer-btn:active{
+    margin-left: 25px;
+    color: #fff;
+    background-color: #DE2E54;
+    opacity: 0.6;
+}
+
+.sitenav-item_footer > a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 14px;
+    line-height: 150%;
+    text-transform: uppercase;
+    height: 21px;
+}
+
+.sitenav-item_footer > a:hover{
+    color: #DE2E54;;
+}
+
+.footer-sitenav{
+    margin-left: 200px;
+}
