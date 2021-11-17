@@ -16,9 +16,9 @@ body{
 }
 
 .header{
-    display: flex;
     color: #222;
     font-family: Open Sans;
+
 }
 
 
@@ -30,6 +30,7 @@ body{
 }
 
 .logo-icon{  
+    margin-top: 24px;  
     width: 50px;
     height: 50px;
     margin: 5px  16px 0 170px;
@@ -64,10 +65,6 @@ body{
     list-style: none;
     display: flex;    
     color: #222;
-}
-
-.sitenav-item{
-    margin-top: 20px;
 }
 
 .sitenav-item a{
@@ -227,6 +224,10 @@ h3{
     text-align: center;
     background-color: #0EB4C1;
     height: 253px;
+}
+
+.footer-logo{
+    color: #fff;
 }
 
 .footer-text_btn{
